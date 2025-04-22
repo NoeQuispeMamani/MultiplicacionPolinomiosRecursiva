@@ -26,7 +26,6 @@ public class MultiplicaciondePolinomiosRecursivos {
         multiplicarRecursivo(A, B, resultado, i, j + 1);
     }
 
-    // Para imprimir un polinomio
     public static void imprimirPolinomio(int[] poly) {
         for (int i = 0; i < poly.length; i++) {
             System.out.print(poly[i] + (i > 0 ? "x^" + i : ""));
